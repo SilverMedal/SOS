@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navigation__item {
+    &:not(:last-child){
+        margin-right: 30px;
+    }
+}
+
+.navigation__item-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.additional-links {}
+
+.additional-links__languages {}
+
+.additional-links__game-platform {}
+
+.fa-brands {}
+
+.fa-steam {}
+
+.fa-xbox {}

@@ -1,0 +1,10 @@
+// ^ Connected fonts
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+// ^ Base style in project
+@import './base/reset';
+@import './base/_base';
+
+
+// ^ Blocks styles in project
+@import './blocks/header'
